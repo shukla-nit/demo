@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D1215A7D1F4BF1BC002B0B77 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1215A7C1F4BF1BC002B0B77 /* main.cpp */; };
+		D1215A851F4BF230002B0B77 /* organizing-containers-of-balls.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1215A831F4BF230002B0B77 /* organizing-containers-of-balls.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		D1215A791F4BF1BC002B0B77 /* hackerrank */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = hackerrank; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1215A7C1F4BF1BC002B0B77 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D1215A831F4BF230002B0B77 /* organizing-containers-of-balls.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "organizing-containers-of-balls.cpp"; sourceTree = "<group>"; };
+		D1215A841F4BF230002B0B77 /* organizing-containers-of-balls.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = "organizing-containers-of-balls.hpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				D1215A7C1F4BF1BC002B0B77 /* main.cpp */,
+				D1215A831F4BF230002B0B77 /* organizing-containers-of-balls.cpp */,
+				D1215A841F4BF230002B0B77 /* organizing-containers-of-balls.hpp */,
 			);
 			path = hackerrank;
 			sourceTree = "<group>";
@@ -121,6 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1215A7D1F4BF1BC002B0B77 /* main.cpp in Sources */,
+				D1215A851F4BF230002B0B77 /* organizing-containers-of-balls.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
