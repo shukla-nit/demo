@@ -7,9 +7,12 @@
 //
 
 #include <iostream>
+#include "organizing-containers-of-balls.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
-    std::cout << "Hello, World!\n";
+  
+    organizing_containers_of_balls obj;
+    obj.solve();
     return 0;
 }
